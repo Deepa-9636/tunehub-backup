@@ -1,0 +1,29 @@
+body {
+      font-family: Arial, sans-serif; /* Set default font family */
+      background-color: #f0f0f0; /* Set background color */
+      margin: 0; /* Remove default margin */
+      padding: 0; /* Remove default padding */
+    }
+    
+    table {
+      width: 100%; /* Make the table take the full width of its container */
+      border-collapse: collapse; /* Collapse table borders */
+    }
+    
+    th, td {
+      padding: 8px; /* Add padding to table cells */
+      text-align: left; /* Align text to the left within cells */
+    }
+    
+    th {
+      background-color: #007bff; /* Set header background color */
+      color: #fff; /* Set header text color */
+    }
+    
+    tr:nth-child(even) {
+      background-color: #f2f2f2; /* Set even row background color */
+    }
+    
+    audio {
+      width: 100px; /* Set the width of the audio player */
+    }
